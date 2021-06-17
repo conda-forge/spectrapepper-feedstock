@@ -1,17 +1,17 @@
 {% set name = "spectrapepper" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.8" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 7bf87dbc5ada99d3ba4d1b12d99f052d8154d39c6614698d09ea80014cca4f97
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: ef2650beba18c5bda3c76608e6eeeb102d49f4c404ad010f7a3a854fde306a84
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -29,11 +29,11 @@ test:
     - spectrapepper
 
 about:
-  home: "https://github.com/enricgrau/spectrapepper"
+  home: https://github.com/enricgrau/spectrapepper
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "A Python package to simplify and accelerate analysis of spectroscopy data"
+  summary: A Python package to simplify and accelerate analysis of spectroscopy data
   doc_url: https://enricgrau.github.io/spectrapepper/
   dev_url: https://github.com/enricgrau/spectrapepper
 
