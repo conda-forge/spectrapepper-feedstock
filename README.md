@@ -1,7 +1,7 @@
 About spectrapepper
 ===================
 
-Home: https://github.com/enricgrau/spectrapepper
+Home: https://github.com/spectrapepper/spectrapepper
 
 Package license: MIT
 
@@ -11,7 +11,7 @@ Summary: A Python package to simplify and accelerate analysis of spectroscopy da
 
 Development: https://github.com/enricgrau/spectrapepper
 
-Documentation: https://enricgrau.github.io/spectrapepper/
+Documentation: https://spectrapepper.github.io/spectrapepper/
 
 Current build status
 ====================
