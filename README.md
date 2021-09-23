@@ -1,7 +1,7 @@
 About spectrapepper
 ===================
 
-Home: https://github.com/enricgrau/spectrapepper
+Home: https://github.com/spectrapepper/spectrapepper
 
 Package license: MIT
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spectrapepper-f
 
 Summary: A Python package to simplify and accelerate analysis of spectroscopy data
 
-Development: https://github.com/enricgrau/spectrapepper
+Development: https://github.com/spectrapepper/spectrapepper
 
-Documentation: https://enricgrau.github.io/spectrapepper/
+Documentation: https://spectrapepper.github.io/spectrapepper/
 
 Current build status
 ====================
