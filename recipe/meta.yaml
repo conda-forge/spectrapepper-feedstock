@@ -28,13 +28,13 @@ test:
     - spectrapepper
 
 about:
-  home: https://github.com/enricgrau/spectrapepper
+  home: https://github.com/spectrapepper/spectrapepper
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: A Python package to simplify and accelerate analysis of spectroscopy data
-  doc_url: https://enricgrau.github.io/spectrapepper/
-  dev_url: https://github.com/enricgrau/spectrapepper
+  doc_url: https://spectrapepper.github.io/spectrapepper/
+  dev_url: https://github.com/spectrapepper/spectrapepper
 
 extra:
   recipe-maintainers:
