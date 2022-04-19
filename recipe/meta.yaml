@@ -1,5 +1,5 @@
 {% set name = "spectrapepper" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,8 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: f7cdca7623d6d92dc999133341b84742b35d0ac4d6eb5139d587b3e20778fbae
-
+  sha256: 9772a6809b35204b41dbfca923a09e1f99513f765c414cbca7f3183cb56a5be0
 build:
   number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
