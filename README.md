@@ -1,11 +1,11 @@
-About spectrapepper
-===================
+About spectrapepper-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spectrapepper-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/spectrapepper/spectrapepper
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spectrapepper-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Python package to simplify and accelerate analysis of spectroscopy data
 
